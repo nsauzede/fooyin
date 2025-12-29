@@ -62,5 +62,6 @@ void PlaylistColumnRegistry::loadDefaults()
     addDefaultItem({.id = 13, .name = tr("Front Cover"), .field = u"%frontcover%"_s, .isPixmap = true});
     addDefaultItem({.id = 14, .name = tr("Back Cover"), .field = u"%backcover%"_s, .isPixmap = true});
     addDefaultItem({.id = 15, .name = tr("Artist Picture"), .field = u"%artistpicture%"_s, .isPixmap = true});
+    addDefaultItem({.id = 22, .name = tr("Date"), .field = u"%date%"_s});
 }
 } // namespace Fooyin
